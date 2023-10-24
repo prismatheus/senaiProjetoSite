@@ -1,0 +1,123 @@
+body {
+  background: #1a137c;
+  margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  width: auto max-content;
+  height: 80px;
+  background: #0a1227;
+  color: white;
+  margin: 0px;
+  font-size: larger;
+  text-align: center;
+  padding-top: 23px;
+}
+
+main {
+  width: auto max-content;
+  height: 2000px;
+  background: #0b0803;
+  background: linear-gradient(180deg, #09173d 10%, #1a137c 80%);
+  text-align: center;
+}
+
+button {
+  border-style: double;
+  border-radius: 10px;
+  border-color: #7bdaff;
+  background: #7bdaff;
+  color: rgb(26, 34, 43);
+  font-size: larger;
+}
+
+.botao {
+  color: rgb(0, 0, 0);
+  padding: 12px 28px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 20px 56px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.botao1 {
+  background-color: #c1f1f1;
+  color: #050513;
+  border: 2px solid #4cafa2;
+}
+.botao1:hover {
+  background-color: #4cafa2;
+  color: white;
+  border: 2px solid #4cafa2;
+  padding: 16px 32px;
+}
+.botao2 {
+  background-color: #c1f1f1;
+  color: #050513;
+  border: 2px solid #4cafa2;
+  padding: 10px 16px;
+  font-size: 20px;
+  float: right;
+}
+.botao2:hover {
+  background-color: #4cafa2;
+  color: white;
+  border: 2px solid #4cafa2;
+  padding: 14px 20px;
+
+}
+
+
+.formas {
+  padding-top: 50px;
+}
+#textos {
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  background-color: #050c29;
+  width: 550px;
+  height:max-content;
+  min-height: 100px;
+  border-radius: 10px;
+  display: inline-block;
+}
+#senaiLogo{
+  width: 130px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 13px;
+}
+#titulo{
+  padding-right: 130px;
+  display: inline;
+}
+#br{
+  text-align: left;
+  display: left;
+  font-size: 25px;
+  float: inline-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+#tituloDaLista{
+height: 30px;
+display: center;
+margin: 0px;
+margin-top: 20px;
+padding-left: 0px;
+font-size: 30px;
+}
+input{
+  width: 150px;
+  height: 54px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #4cafa2;
+  background-color: transparent;
+  color: black;
+  background-color: #c1f1f1;
+}
