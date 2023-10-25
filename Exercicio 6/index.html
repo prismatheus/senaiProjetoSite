@@ -10,26 +10,31 @@
     <link rel="stylesheet" href="style.css" />
     <script src="./script.js" defer></script>
   </head>
-
   <body>
     <header>
       <img id="senaiLogo" src="logo-senai.png" alt="logo senai" srcset="" />
       <h1 id="titulo">Mega-Senai</h1>
     </header>
-    <main>
+  <img id="gif" src="confetti.gif" alt="" srcset="gif confetti" />
+    <main id="tudo">
       <section class="form botao">
         <form id="inputForm">
           <input type="text" id="nameInput" placeholder="Nome" required />
           <input type="number" id="valueInput" placeholder="Valor" required />
           <button class="botao botao1" type="submit">Adicionar à Lista</button>
         </form>
+
+        <form class="inputForm">
+          <input type="number" id="sorteio" placeholder="Numero Sorteado" />
+          <button class="botao botao1" onclick="sortear(event)">
+            Adicionar
+          </button>
+        </form>
       </section>
       <section id="textos">
         <h3 id="tituloDaLista">Participantes:</h3>
         <ul id="br"></ul>
-      </section>
-      <section>
-        <button class="botao botao2" type="submit" onclick="reset()">reset</button>
+        <h2 id=""></h2>
       </section>
     </main>
   </body>
