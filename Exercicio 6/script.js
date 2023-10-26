@@ -35,8 +35,8 @@ function sortear(event) {
 
   let participanteSorteado;
   let numeroSorteado = document.getElementById("sorteio").value;
-  if (numeroSorteado > 99) {
-    alert("numero inválido! Os números soretados ficam apenas entre 0 a 99");
+  if (numeroSorteado > 99 || participantes[numeroSorteado] == "numero vago" || numeroSorteado < 0) {
+    alert("numero inválido!");
   } else {
     participanteSorteado = participantes[numeroSorteado];
     let h2 = document.createElement("h2");
